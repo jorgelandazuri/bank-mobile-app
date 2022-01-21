@@ -1,0 +1,71 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/expo": "^27.0.1",
+    "@types/jest": "^22.2.3",
+    "@types/node": "^8.9.1",
+    "@types/react": "^16.3.14",
+    "@types/react-native": "^0.55.14",
+    "@types/react-native-material-textfield": "^0.12.1",
+    "@types/react-test-renderer": "^16.0.1",
+    "currency-symbol-map": "^4.0.4",
+    "jest-expo": "~27.0.0",
+    "react-native-device-detection": "^0.2.0",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-pie-chart": "^1.0.13",
+    "react-native-scripts-ts": "1.15.0",
+    "react-native-typescript-transformer": "^1.2.3",
+    "react-test-renderer": "16.3.1",
+    "ts-jest": "^22.4.6",
+    "tslib": "^1.9.1",
+    "typemoq": "^2.1.0",
+    "typescript": "^2.8.3"
+  },
+  "main": "./node_modules/react-native-scripts-ts/build/bin/crna-entry.js",
+  "scripts": {
+    "set_app_env": "sudo npm install -g create-react-native-app && npm install && sudo npm install -g json-server",
+    "start_app_db": "json-server --watch accounts-db.json",
+    "start_app": "npm start -- --reset-cache",
+    "start": "react-native-scripts-ts start",
+    "eject": "react-native-scripts-ts eject",
+    "android": "react-native-scripts-ts android",
+    "ios": "react-native-scripts-ts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "useBabelrc": true
+      }
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "preset": "jest-expo",
+    "testMatch": [
+      "**/__tests__/**/*.[tj]s?(x)",
+      "**/?(*.)(spec|test).[tj]s?(x)",
+      "**/*Test.(ts|tsx|js)",
+      "**/*Test.(ts|tsx)"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    }
+  },
+  "dependencies": {
+    "expo": "^27.0.1",
+    "fb-watchman": "^2.0.0",
+    "node": "^8.9.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-material-textfield": "^0.12.0",
+    "react-native-simple-toast": "0.0.8"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "currency": "GBP",
+      "startingBalance": 13500,
+      "transfers": [
+        {
+          "receiver": {
+            "name": "Natalia",
+            "email": "natalia@hotmail.com"
+          },
+          "amount": 1500,
+          "currency": "GBP"
+        },
+        {
+          "receiver": {
+            "name": "Thomas",
+            "email": "thomas@gmail.com"
+          },
+          "amount": 1000,
+          "currency": "GBP"
+        },
+        {
+          "receiver": {
+            "name": "Martin",
+            "email": "martin@gmail.com"
+          },
+          "amount": 2000,
+          "currency": "GBP"
+        },
+        {
+          "receiver": {
+            "name": "George",
+            "email": "george@gmail.com"
+          },
+          "amount": 456.99,
+          "currency": "GBP"
+        },
+        {
+          "receiver": {
+            "name": "Mary",
+            "email": "mary@aol.com"
+          },
+          "amount": 123,
+          "currency": "GBP"
+        },
+        {
+          "receiver": {
+            "name": "Justin",
+            "email": "justin@hotmail.com"
+          },
+          "amount": 21,
+          "currency": "GBP"
+        }
+      ],
+      "totalSent": 5100.99,
+      "currentBalance": 8399.01
+    }
+  ]
+}
