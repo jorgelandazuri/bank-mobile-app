@@ -50,6 +50,7 @@ export class AccountTransactionsLandscapeScreen extends ComponentMViewP<AccountT
             onTransferNotCompleted={(error: string) => {
               this.showAccountFetchingError(error);
             }}
+            onFormSubmitted={() => {}}
             nameValidator={new NameValidator()}
             emailValidator={new EmailValidator()}
             amountValidator={new MoneyAmountValidator()}
